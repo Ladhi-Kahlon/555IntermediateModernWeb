@@ -7,13 +7,7 @@
  
 1. In your `/WIP/html` add a file `table.html`. Choose the template with the white box and dotted bottom border.
 
-<<<<<<< HEAD
-1. Change the link to the `table.css` you copied, instead of `main.css`.
-
-1. Open the image in this folder called `contact-info.png`.  
-=======
 1. In the head section, notice the `main.css` being referenced. Change this to `table.css`.
->>>>>>> 049b52295ce4840d99dd8985f35e038e80c5f90b
 
 1. You will re-create this rendered table using EMMET abbreviations with a caption and <th> for headers.
 
