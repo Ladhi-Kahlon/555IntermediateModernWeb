@@ -6,9 +6,9 @@
 30 minutes
 
 ## Steps:
-1. Copy this `ajax` directory to `WIP`.
+1. Copy this `6ajax` directory to `WIP`.
 
-1. Open a command prompt to `\WIP\ajax` 
+1. Open a command prompt (VSCode integrated terminal) to `\WIP\6ajax` 
 
 1. Execute these two commands:
     ```
