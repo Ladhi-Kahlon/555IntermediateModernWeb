@@ -4,7 +4,7 @@
 * Retrieve local data stored in local storage
 
 ### Estimated Completion Time 
-20 minutes
+15 minutes
 
 ## Steps:
 ### Save Preferences in Local Storage
