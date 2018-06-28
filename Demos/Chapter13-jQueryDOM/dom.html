@@ -40,18 +40,7 @@
 					value: 'incomplete'
 				});
 
-				$("#check-div-class").click(function () {
-
-					if ($("div").hasClass('box')) {
-						console.log("tis true!");
-					} else {
-						console.log("tis false!");
-					}
-				});
-
-				$("#remove-div-box-important").click(function () {
-					$("div").removeClass('box important');
-				});
+			
 
 				$("#log-table-html").click(function () {
 					console.log($("table").html());
@@ -102,12 +91,8 @@
 	<ul>Actions
 		<li id="view-p-text">Click here to generate paragraph text in console</li>
 		<li id="view-email-attr">Click here to view email text value in console</li>
-		<li id="check-div-class">Check div#toggle-hover class</li>
-		<li id="remove-div-box-important">Remove classes box and important from divs</li>
 		<li id="log-table-html">Log table html to console</li>
 		<li id="log-button-count">Log the button count</li>
-
-
 	</ul>
 
 

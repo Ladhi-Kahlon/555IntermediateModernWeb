@@ -1,48 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+	<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="../scripts/includeJQ.js"></script>
+	<script>
+		$(function () {
 
+			$("p").css('font-weight', 'bold');
 
-<script src="http://code.jquery.com/jquery-3.3.0.js"></script>
+			$("#artists").css('color', 'red');
 
-<script>
-	window.jQuery
-			|| document
-					.write('<script src="../../../scripts/jquery-3.3.1.min.js"><\/script>');
-</script>
+			$(".favorite").css('background-color', 'yellow');
 
-<script>
-	$(function() {
-		
-		$("p").css('font-weight', 'bold');
+			console.log($("body").jquery);
 
-		$("#artists").css('color', 'red');
+		});
 
-		$(".favorite").css('background-color', 'yellow');
-
-		console.log($("body").jquery);
-
-	});
-
-</script>
-
+	</script>
 </head>
-<body>
 
+<body>
 	<p>Things I Like to Do</p>
 	<ul>
 		<li>Wash Car</li>
 		<li>Finish Taxes</li>
 		<li class="favorite">Vote</li>
 	</ul>
-
 	<p>Things I DO NOT Like to Do</p>
 	<ul>
 		<li>Wash Dishes</li>
 		<li>Start Taxes</li>
 		<li>Go to the DMV</li>
 	</ul>
-
 	<table id="artists">
 		<tr>
 			<th>Artist</th>
@@ -60,13 +50,11 @@
 			<td>Stevie Nicks</td>
 			<td>Pop Rock</td>
 		</tr>
-		<tr >
-			<td >Amos Lee</td>
+		<tr>
+			<td>Amos Lee</td>
 			<td>Soul</td>
 		</tr>
 	</table>
-
-
-
 </body>
+
 </html>
