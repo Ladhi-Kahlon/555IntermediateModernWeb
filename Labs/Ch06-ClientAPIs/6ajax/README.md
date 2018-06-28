@@ -1,4 +1,4 @@
-# Chapter 8: Exercise: Use AJAX to get json data from a local server
+# Chapter 6: Exercise: Use AJAX to get json data from a local server
 ## Objectives
 * Use AJAX to get and display json data
 
@@ -19,6 +19,6 @@
 
 1. Review the file `bands.json`
 
-1. Open index.html and follow the 6 steps in the TODO comments to read the data and display it
+1. Open `index.html` and follow the 6 steps in the TODO comments to read the data and display it
 
 1. Refresh the browser to view the output, you should see the bands on the screen.
