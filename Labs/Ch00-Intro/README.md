@@ -85,22 +85,24 @@ You will also create a directory for your work during class called WIP.
     
     * Git includes a settings file called `.gitignore`
     * Any files or directories included in this file will not be included when you push changes up to the repository.
-    * You will be adding files as you perform labs in the class.  You do not want these changes to be published to the repository.  In order to ensure this, you will create a directory to hold these files.  I have already added the directory reference to the .gitignore file.
+    * You will be adding files as you perform labs in the class.  You do not want these changes to be published to the repository.  In order to ensure this, you will create a directory to hold these files.  The GIT directory is in this .gitignore file.
 
 ## Part 3 - Use VSCode to create the `WIP` directory:
 
 1. Ensure that you have the Explorer open in the navigation bar.
 
-1. You should see the folder for this course listed. Within this folder you will see the `/Demos` and `/Labs` directories. The name of the folder is what is displayed in bold,  Ex. 155IntroModernWeb, 555IntermediateModernWeb, etc.
+1. You should see the folder for this course listed. Within this folder you will see the `/Demos` and `/Labs` directories. The name of the folder is what is displayed in bold,  Ex. 155ModernWeb, 555IntermediateModernWeb, etc.
     
-1. Create a folder to hold your working files
+1. Create the `WIP` folder to hold your working files
 
-    a. Click on the Explorer icon inthe navigation bar onthe left.
+    a. If need to see files, click on the Explorer icon in the left navigation bar.
     
-    b. In the empty space at the bottom of the list, right-click and choose New Folder.
+    b. In the empty space at the very bottom of the list, right-click and choose New Folder.
     
     c. Name the new Folder `WIP` - capitalized. You will be working in this directory for much of the course. 
 
 
-1. If working on a Lab machine, you will be able to zip this directory and transfer it off of the lab machine to preserve your work.
+1. If working on a Lab machine, at the end of class you will be able to zip this directory and transfer it off of the lab machine to preserve your work.
+
+1. Please mark your work as complete. With name tent card if in classroom or by using method for online training. (spreadsheet, status symbol, etc.)
 
