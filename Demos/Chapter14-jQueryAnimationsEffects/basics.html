@@ -2,19 +2,12 @@
 <html>
 <head>
 
-<script src="http://code.jquery.com/jquery.js"></script>
-
-<!-- 
-<script
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js">
-</script>
-
- -->
- 
+	<script src="../scripts/jquery.js"></script>
+	 
  
  
  <style>
-div:not (#toggle-states ) {
+div:not(#toggle-states ) {
 	width: 100px;
 	height: 100px;
 	display: none;
@@ -45,27 +38,7 @@ div:not (#toggle-states ) {
 					$("div#toggle-div").toggle();
 				});
 				
-			 	/* $('#toggle-states').toggle(
-					      function () {
-					        $(this).css({'background':'red'}); //1st click
-					      },
-					      function () {
-					        $(this).css({'background':'orange'}); //2nd click
-					      },
-					      function () {
-					        $(this).css({'background':'yellow'}); //3rd click
-					      }
-				);
-				
-						$("span").toggle(
-							    function(){$("span").css({"color": "red"});},
-							    function(){$("span").css({"color": "blue"});},
-							    function(){$("span").css({"color": "green"});
-					    }); 
-				 */
-				
-				
-				
+			 	
 				
 				$( "#fade-in-cover" ).click(function() {
 					  $( "#album-cover" ).fadeIn( "slow", function() {
@@ -123,9 +96,7 @@ div:not (#toggle-states ) {
 	<button id="toggle-button">Toggle me</button>
 	<div id="toggle-div">Hello Again!</div>
 
-	<div id="toggle-states">I have many states</div>
-
-	<span>Toggle me</span>
+	
 
 	<div id="toggle-album-cover">Toggle Album Cover</div>
 
