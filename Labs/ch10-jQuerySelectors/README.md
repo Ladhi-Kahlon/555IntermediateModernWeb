@@ -99,7 +99,7 @@
 	$(".favorite").css('background-color', 'yellow');
 	```
 
-1. Mark yourself as complete.
+1. Mark your work as complete.
 
 ## Bonus
 
