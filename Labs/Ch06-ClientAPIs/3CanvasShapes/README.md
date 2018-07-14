@@ -31,4 +31,4 @@
 
 ## Bonus
 
-1. Folow the steps in the README.md in \Labs\Ch06-ClientAPIs\4CanvasChart/
+1. Follow the steps in the README.md in \Labs\Ch06-ClientAPIs\4CanvasChart/
