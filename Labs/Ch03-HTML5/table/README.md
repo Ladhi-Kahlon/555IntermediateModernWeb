@@ -9,7 +9,7 @@
 
 1. In the head section, notice the `main.css` being referenced. Change this to `table.css`.
 
-1. You will re-create this rendered table using EMMET abbreviations with a caption and <th> for headers.
+1. You will create the table structure using EMMET abbreviations with a caption and <th> for headers.
 
     In the body area of your html file, copy the following line. It really activates when you are typing so, after you paste the following, hit the backspace and recreate the last character 3:
     ```
