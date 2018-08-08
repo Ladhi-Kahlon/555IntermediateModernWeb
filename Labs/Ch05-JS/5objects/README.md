@@ -93,13 +93,13 @@
 
 
 
-        for (let x = 0; x < hobbies.length; x++) {
+        for (let x = 0; x < hobbiesArray.length; x++) {
             printHobbyInfo(hobbies[x]);
         }
 
             OR
 
-        for (let hobby of hobbies) {
+        for (let hobby of hobbiesArray) {
             printHobbyInfo(hobby);
         }
     ```
