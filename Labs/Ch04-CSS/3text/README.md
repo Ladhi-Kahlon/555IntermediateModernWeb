@@ -53,7 +53,7 @@
     header {text-align:center}
     ``` 
 
-1. Remove the link styling
+1. Remove the bullets from the nav links
     ```
 
 
