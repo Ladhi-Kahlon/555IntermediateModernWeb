@@ -94,7 +94,7 @@
 
 
         for (let x = 0; x < hobbiesArray.length; x++) {
-            printHobbyInfo(hobbies[x]);
+            printHobbyInfo(hobbiesArray[x]);
         }
 
             OR
