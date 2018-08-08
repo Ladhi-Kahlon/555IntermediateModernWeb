@@ -6,7 +6,7 @@
 ### Estimated Completion Time 
 5 minutes
  
-1. In your `/WIP/` directory, if not already created, add a `JS` folder and a file `JSpractice.html`. 
+1. In your `/WIP/` directory, if not already created, add a `js` folder and a file `JSpractice.html`. 
 
 1. Type html and choose the template that has the white box with dotted underline.
 
