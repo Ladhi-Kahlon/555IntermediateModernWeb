@@ -20,8 +20,8 @@
     * hitting the up/down arrows to increment/decrement the value
 
 1. Change the background color:
-    * click the color value (#eeeeee) or the square of color - to launch the color picker 
-    * choose a new color from color picker. 
+    * click the color value (#eeeeee) or the square of color - to launch the color picker  - sometimes you may have to click around a bit on teh squeare of color value.
+    * choose a new color from color picker. you may need to hit return for your changes to stick.
 
 1. Center the text by adding a new property. 
     * Click on the `value` that is for the last property in the list (probably `purple` after `color:` )

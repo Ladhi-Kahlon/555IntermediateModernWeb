@@ -95,7 +95,7 @@
 
     ```
     ```CSS
-    nav ul li {text-decoration:none}
+    nav ul li {list-style:none}
     ``` 
 
 1. The underlining of links looks strange for navigation, turn this off. 
@@ -140,7 +140,7 @@
 
       ```
       ```CSS
-      nav ul li {text-decoration:none}
+      nav a {text-decoration:none}
       ``` 
 
 1. Mark your work as complete
