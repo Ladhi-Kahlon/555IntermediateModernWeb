@@ -59,10 +59,11 @@
             console.log('');
 
             console.log('Array.find()');
-            const haystack = ['Apple', 'Banana', 'Cherry'];
+            const haystack = ['Apple', 'banana', 'Cherry'];
             const needle = haystack.find(function(currentValue) {
-                return currentValue.startsWith('B');
+                return currentValue.toUpperCase().startsWith('B');
             });
+
             console.log('Needle is: ' + needle);
             console.log('');
 

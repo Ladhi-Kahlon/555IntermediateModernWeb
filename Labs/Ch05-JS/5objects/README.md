@@ -37,13 +37,71 @@
 1. Create a function that takes in one hobby and prints it to console.log. Use ES6 backticks to concatenate without the plus symbol.  Use ${ }  with the variable name inside. Scroll down for help and to continue:
 
     ``` javascript
-    function printSportInfo(sport) {
-        console.log(` ${sport.name} is played in ${sport.duration} `)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    function printHobbyInfo(hobby) {
+        console.log(` ${hobby.name} enjoyed for ${hobby.lengthInYearsAtHobby} `)
     }
     ```
 
-1. Now loop through your array items and call your function for each item.     ``` javascript
-        printSportInfo(sportsArray[someCounter]);
+1. Now loop through your array items and call your function for each item.    
+    ``` javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        for (let x = 0; x < hobbies.length; x++) {
+            printHobbyInfo(hobbies[x]);
+        }
+
+            OR
+
+        for (let hobby of hobbies) {
+            printHobbyInfo(hobby);
+        }
     ```
 
 1. Run from the command line using `node myHobbies`
