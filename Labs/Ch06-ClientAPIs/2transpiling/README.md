@@ -28,7 +28,7 @@
 
 1. Create an `index.html` file in the directory of `\WIP\ES6` which includes a script reference like this:
     ``` javascript
-    <script src="src/myHobbies.js"></script>
+    <script src="src/hobbies.js"></script>
     ```
 
 1. Open `index.html` in Chrome and verify in the console that it works.
