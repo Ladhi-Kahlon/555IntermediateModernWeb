@@ -138,7 +138,7 @@
     <script>document.getElementById("hobbiesInfo").innerHTML=returnHobbiesHTML()</script>  
     ```
 
-1. In `src/myHobbies.js`, write the `returnHobbiesHTML` function  file to return a string, which includes HTML tags such as `<br />` or `<li>`. You can use an approach similar to this using ES6 backticks - but be sure to update the code if you copy it to use. 
+1. In `src/hobbies.js`, write the `returnHobbiesHTML` function  file to return a string, which includes HTML tags such as `<br />` or `<li>`. You can use an approach similar to this using ES6 backticks - but be sure to update the code if you copy it to use. 
 
     ```javascript
     function returnSportsHTML() {
