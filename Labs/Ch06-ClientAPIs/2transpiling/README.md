@@ -31,7 +31,7 @@
     <script src="src/hobbies.js"></script>
     ```
 
-1. Open `index.html` in Chrome and verify in the console that it works.
+1. Open `index.html` in Chrome and verify in the console area of devtools that it works.
 
 1. Open in IE11 and verify that it does not work. It does not understand the ES6 syntax.
 
