@@ -26,7 +26,9 @@
 1. Create a `src` directory for scripts, and to this directory, copy the `hobbies.js` file from the same directory as this README. It is from a previous exercises solution you worked on. 
 
 
-1. Create an `index.html` file in the directory of `\WIP\ES6` which includes a script reference like this:
+1. Create an `index.html` file in the directory of `\WIP\ES6`. You can use the html:5 template.
+
+1. Include a script reference like this:
     ``` javascript
     <script src="src/hobbies.js"></script>
     ```
