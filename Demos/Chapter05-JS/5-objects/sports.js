@@ -15,4 +15,6 @@
             printSportInfo(sportsArray[1]);
             printSportInfo(sportsArray[2]);
             
-        
+            sportsArray.forEach(sport => {
+                console.log(`  ${sport.name} is played in ${sport.duration} `);
+            });

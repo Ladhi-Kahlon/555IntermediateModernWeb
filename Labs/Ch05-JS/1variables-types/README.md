@@ -46,8 +46,7 @@
 
 ## Bonus
 
-1. Use this code to get the number of milliseconds since 
-epoch. Jan 1, 1970.  
+1. Use the following code to get the number of milliseconds since epoch. Jan 1, 1970.  
     ``` javascript
     let timeInMs = Date.now();
     ```

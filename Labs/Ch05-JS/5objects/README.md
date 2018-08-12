@@ -108,31 +108,9 @@
 
 1. Once working mark your work as complete.
 
-##Bonus
+## Bonus
 
-1. READ: The `Array.prototype.forEach` function takes an anonymous function which iterates over the array allowing you to do something with each element. It is one of the examples of using the `Array.prototype` functions to not need to write a for loop on your own, just to iterate over every element. Most of the `Array.prototype` functions process the array using the callback function that you supply.  
-
-    Now with ES6 notation, we can use an arrow function for specifying the callback function. View the following example used in the /Demos section. Notice how a local variable is set for sport, to represent the single sport being processed during that iteration of the loop - processing each element of the `sportsArray.` 
-
-    ``` javascript
-     sportsArray.forEach(sport => {
-        console.log(`  ${sport.name} is played in ${sport.duration} `);
-    });
-    ```
-
-1. Now, you will use the `forEach` method with your own array. Create a `logHobbies` function with no inputs which uses the `forEach` method for looping, and prints a message using ES6 backticks with string template references for the properties. 
-
-   Example output:
-
-   volleyball: A hobby for 25 years
-
-1. After the function definition, add a call to the `logHobbies` function.
-
-1. Run your .js file from the command line using `node myHobbies` - be sure you are in the correct directory! Recall - you can right-click files or directories and open in the integrated terminal window to the correct location.
-
-1. Confirm the script works - that you see the output in the console. ES6 is supported in Node.
-
-
+### Bonus #1
 1. Create an object literal to represent one band:
     ```javascript
     let band1 = {
@@ -149,4 +127,27 @@
 
 1. Create a bands array and add the two objects.
 
-1. Create a function to process this array. 
+1. Create a function to process this array and print details. 
+
+### Bonus #2
+1. READ: The `Array.prototype.forEach` function takes an anonymous function which iterates over the array allowing you to do something with each element. It is one of the examples of using the `Array.prototype` functions to not need to write a for loop on your own, just to iterate over every element. Most of the `Array.prototype` functions process the array using the callback function that you supply.  
+
+    Now with ES6 notation, we can use an arrow function for specifying the callback function. View the following EXAMPLE. Notice how a local variable is set for `sport`, to represent the single sport being processed during that iteration of the loop - processing each element of the `sportsArray.` 
+
+    ``` javascript
+     sportsArray.forEach(sport => {
+        console.log(`  ${sport.name} is played in ${sport.duration} `);
+    });
+    ```
+
+1. Use the `forEach` method with your own hobbies array. Create a `logHobbies` function with no inputs which uses the `forEach` method for looping, and prints a message using ES6 backticks with string template references for the properties. 
+
+   Example output:
+
+   volleyball: A hobby for 25 years
+
+1. After the function definition, add a call to the `logHobbies` function.
+
+1. Confirm the script works - that you see the output in the console. ES6 is supported in Node.
+
+
