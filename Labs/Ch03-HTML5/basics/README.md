@@ -82,7 +82,7 @@
 
 1. Right-click on the result link to open the site in a new window.  
 
-1. While viewing the MDN website, right click in displayed browser window and choose `View Source`.  Scroll or use control-F to find the meta description - you should see the same text as what was displayed in the search results. 
+1. While viewing the MDN website, right click in displayed browser window and choose `View Source`.  Scroll or use control-F to find the meta element which has the description - you should see the same text as what was displayed in the search results. 
 
 1. Mark your work as complete and help others. We retain more by helping others!
 
