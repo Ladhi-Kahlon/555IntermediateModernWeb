@@ -20,7 +20,7 @@
 1. In this new blank file start typing `html`, and choose the template with html:5 as in this directory's screenshot `choose-template.png`
 
     ## character encoding - commenting/uncommenting code
-1. Copy this code and paste it into the `<body>` element.
+1. Copy this code and paste it into the `<body>` element. (Highlight then control-c, to paste, use control-V)
     ```html
     <h1>Welcome to the home page in multiple languages!</h1>
     <ul>
@@ -46,7 +46,7 @@
     * Comment out this line by clicking anywhere on that line, and using the VSCode keyboard shortcut of control+/  (forward slash)
     
 
-1. Copy the following line (highlight, then control-c), and then paste it after the line you just commented out. (control-c):
+1. Copy the following line, and then paste it after the line you just commented out. 
     ```html
     <meta charset="ISO-8859-1">
     ```
