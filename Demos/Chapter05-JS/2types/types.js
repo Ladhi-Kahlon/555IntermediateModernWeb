@@ -79,7 +79,7 @@ console.log(myArray);
 myArray.sort(function (x, y) {
     return x - y;
 });
-console.log(myArray);
+console.log(myArray, typeof myArray);
 
 
 
