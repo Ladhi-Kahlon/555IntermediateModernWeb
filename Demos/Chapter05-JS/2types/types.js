@@ -55,16 +55,31 @@ let tryBigger = bigNum * 2; console.log("Too big? " + tryBigger);
 console.groupEnd();
 
 
-function add(a, b) {
-    if ((typeof b) != 'undefined') {
-        //no op
-    }
-    else {
-        b = 2;
-    }
+function add(a=1, b=2) {
+    // if ((typeof b) != 'undefined') {
+    //     //no op
+    // }
+    // else {
+    //     b = 2;
+    // }
 
-    b = ((typeof b) != 'undefined') ? b : 2;
+    //b = ((typeof b) != 'undefined') ? b : 2;
+
+    console.log(a+b);
 }
+
+setTimeout(add, 200);
+console.log('After setTimeout');
+
+console.log(typeof add);
+
+let myArray = [1, 2, 11, 3, 4];
+myArray.sort();
+console.log(myArray);
+myArray.sort(function (x, y) {
+    return x - y;
+});
+console.log(myArray);
 
 
 
