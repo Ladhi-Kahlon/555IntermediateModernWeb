@@ -88,30 +88,8 @@
     ```
     ./node_modules/.bin/babel src --out-dir dist
     ```
-    
-    BUT starting with npm version 5.0 there is a new tool available called `npx` which simplifies the calls from the command line to the package to the following:
-    ```
-    npx babel src --out-dir dist
-    ```
 
-    The `npx` command will look in the node_modules directory, if not there, it looks globally, if not there, it will temporarily download the program, execute it, then delete it.
-
-1. Ensure npm is up to date so that we can use npx. Issue this command to find out the current locally installed version: ```npm -v```
-
-    If it is at least 5.0 you can use npx. If not, you can update npm it to the latest version using ```npm i -g npm```
-
-1. From the project root directory, (same as package.json) - issue this command to compile the entire src directory and output the contents to a /dist directory:
-    ```
-   npx babel src --presets babel-preset-env --out-dir dist
-    ```
-
-1. Look in the `/dist` directory at the transpiled file. It should now be using ES5 type concatenation instead of backticks and not be using the arrow function.
-
-1. Update the `index.html` to use this new `/dist/myHobbies.js` version of the hobbies JS file.
-
-1. Reload the IE browser, you should now see output in the dev tools console for both Chrome and IE.
-
-1. Let's add the use of babel in the package.json `build` script so that it is easily repeatable and part of our development build process. 
+1. Instead of the command line, let's add the use of babel in the package.json `build` script so that it is easily repeatable and part of our development build process. 
 
     Find the location of the existing `"scripts"` property in `package.json`. You may already have a property there, for example for `test`. 
     
@@ -129,6 +107,17 @@
 1. The `--watch` indicates to watch for changes in the src directory, and keep transpiling whenever a file is added or changed.
 
 1. Start the build process using the command: `npm run build`. Notice that your terminal window does not return to the prompt because it is listening for changes to your `src` directory. Keep this running as you are about to add more code.
+ 
+  
+1. Look in the `/dist` directory at the transpiled file. It should now be using ES5 type concatenation instead of backticks and not be using the arrow function.
+
+1. Update the `index.html` to use this new `/dist/myHobbies.js` version of the hobbies JS file.
+
+1. Reload the IE browser, you should now see output in the dev tools console for both Chrome and IE.
+
+1. Mark your work as complete and then attempt the bonus
+
+## BONUS
 
 1. Modify your html page to create a `div` to hold the hobbies, and add JavaScript to call a function to update the div.
     ```
@@ -179,7 +168,6 @@
 
 1. Test in Chrome and IE. When it is working, mark your work as complete. 
 
-## BONUS
 
 1. Add the functionality to display the hobbies in a table. Using backticks makes it easier to create html in JS and use classes. 
 
