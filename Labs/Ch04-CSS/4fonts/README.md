@@ -26,7 +26,7 @@
 
 1. Change the font-size of p to 18px
 
-1. Change the font-size of h2 to 1.5em
+1. Change the font-size of h2 to 1.7em
 
 1. Change the font-size of h1 to 2em
 

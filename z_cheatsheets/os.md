@@ -2,7 +2,7 @@
 Ctrl + S
 
 ## Undo
-Ctr + Z
+Ctrl + Z
 
 ## copy
 Ctrl + C
