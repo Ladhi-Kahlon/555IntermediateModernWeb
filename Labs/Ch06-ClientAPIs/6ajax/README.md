@@ -16,6 +16,7 @@
     node server.js 
     ```
 1. Open the URL: http://localhost:9001
+You need to complete the following steps in order to get the data to display correctky on the screen.
 
 1. Review the file `bands.json`
 
