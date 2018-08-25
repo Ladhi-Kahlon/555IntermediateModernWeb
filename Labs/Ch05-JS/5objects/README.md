@@ -150,4 +150,10 @@
 
 1. Confirm the script works - that you see the output in the console. ES6 is supported in Node.
 
+## Bonus
 
+1. create an array of objects with the high/low temps for the week.
+
+    An example to get started { day: “Monday”, high: 80 }   
+
+    With the array, can you loop through and find the high and low temp of the week?

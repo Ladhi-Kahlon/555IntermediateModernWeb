@@ -99,10 +99,17 @@
 	$(".favorite").css('background-color', 'yellow');
 	```
 
+1. Use console.log and display the version of jQuery that is being applied. 
+	* Hint select anything such as body and use the property from the slides
+
 1. Mark your work as complete.
 
 ## Bonus
 
-1. Use console.log and display the version of jQuery that is being applied. 
-	* Hint select anything such as body and use the property from the slides
+1. Create a page with 3 divs.
+
+1. Using jQuery css() function - set the widths to 50% and center the boxes on the page. 
+
+1. Use jQuery to console.log the count of the divs or buttons.
+
 

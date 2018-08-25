@@ -49,4 +49,6 @@ and use various selection techniques
 
 ### Bonus
 
+1. If you havent already, create a div that is a box centered on a page. Add 3 buttons labeled Turn Red, Turn Blue, Turn Green. When one of the buttons is clicked - turn the div box that color. 
+
 1. If time permits, visit http://codylindley.com/jqueryselectors  and experiment with different selectors.
