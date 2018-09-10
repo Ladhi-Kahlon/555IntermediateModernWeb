@@ -4,8 +4,7 @@
 * In this lab, you will write code using ES6 notation
 * Create a new package.json using npm init
 * Install packages locally 
-* You will transpile code from ES6 to ES5
-* Use babel to compile code from ES6 to ES5
+* Use babel to transpile code from ES6 to ES5
 * If you need additional help, you can refer to the appropriate `/Demos` directory. 
 
 ### Estimated Completion Time 
