@@ -2,7 +2,7 @@
 
 ## Objectives
 * In this lab, you will write code using ES6 notation
-* Create a new node project using npm init
+* Create a new package.json using npm init
 * Install packages locally 
 * You will transpile code from ES6 to ES5
 * Use babel to compile code from ES6 to ES5
