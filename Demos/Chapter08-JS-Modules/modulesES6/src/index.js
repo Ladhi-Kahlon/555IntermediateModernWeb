@@ -1,5 +1,3 @@
-'use strict';
-
 import myArrayToText from './array-to-text';
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -7,3 +5,5 @@ document.addEventListener("DOMContentLoaded", function() {
 	var text = myArrayToText(myArray);
 	document.getElementById("text").innerHTML = text;
 });
+
+

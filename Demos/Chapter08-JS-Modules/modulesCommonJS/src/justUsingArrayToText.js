@@ -1,5 +1,3 @@
-'use strict';
-
 const arrUnion = require("arr-union");
 
 const arrayToText = require("./array-to-text");
