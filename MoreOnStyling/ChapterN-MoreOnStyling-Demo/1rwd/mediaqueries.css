@@ -2,7 +2,6 @@
 [class*="col-"] {
     width: 100%;
     background-color:lightcyan;
-    
 }
   
 @media only screen and (min-width: 768px) {
