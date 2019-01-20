@@ -7,6 +7,7 @@
 
 <style>
 	html body h2 {   color: green }
+	h2.myClass { color : black }
 	h2#myTitle { color: orange}
 </style>
 
@@ -14,9 +15,12 @@
 
 </head>
 <body>
-	<h2 style="color:red">Hello</h2>
-	<h2>Goodbye</h2>
-	<h2 id="myTitle">Ive got id!</h2>
+	<h2>First</h2>
+	<h2 style="color:blue">Second</h2>
+	<h2 id="myTitle">Third</h2>
+	<h2 class="myClass">Fourth</h2>
+	<h2 class="myClass" id="myTitle">Fifth</h2>
+	<h2 style="color:red" class="myClass" id="myTitle">Sixth</h2>
 </body>
 
 </html>
