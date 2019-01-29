@@ -1,4 +1,5 @@
-# Chapter n: More on Styling
+# Chapter 5: Responsive Styling with Bootstrap
+
 ## Objectives
 * Use Grid System to lay out the content that fluidly resizes on all the
 * devices.  

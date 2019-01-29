@@ -1,7 +1,7 @@
 # Chapter 5: Responsive Styling with Bootstrap
 
 ## Objectives
-* Add images to the previous exercises.
+* Add images to the previous exercise.
 
 ## Steps
 
