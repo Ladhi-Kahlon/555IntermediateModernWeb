@@ -23,13 +23,14 @@
         <script>
             function bodyOnloadFunction() {
                 document.getElementById('targetedH2').innerHTML = "New text for h2";
+                console.log('This gets called after the body html is loaded');
             }
         </script>
     
     </head>
     <body onload="bodyOnloadFunction()">
         <h2 id="targetedH2">
-                Original h2 content
+                Original h2 content 
         </h2>
 
         <script>
