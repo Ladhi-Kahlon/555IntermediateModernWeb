@@ -4,7 +4,7 @@
 * Make the CSS Quiz more dynamic by loading the questions using JS
 
 ## Steps:
-1. First Complete the Extra Practice readme in `CSSQuiz` 
+1. First Complete the Extra Practice readme in `CSSQuiz`  or copy the solution as a starting point.
 
 1. In JS hard code arrays of questions and answers.
     * Or use an array of objects with Q & A
