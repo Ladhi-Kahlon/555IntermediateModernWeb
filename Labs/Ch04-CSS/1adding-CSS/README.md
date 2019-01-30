@@ -116,6 +116,10 @@ these by using this CSS - we will talk about other values later.
 
 1. View on screen, view on print preview is same? if not check your work.
 
-## Continuing Bonus
+1. Mark your work as complete, before continuing to the bonus
 
-1. Create a button that when clicked updates some of the CSS values we have used so far.
+
+## Bonus
+
+1. CSS: 
+1. JS: Create a button that when clicked updates some of the CSS values we have used so far.
