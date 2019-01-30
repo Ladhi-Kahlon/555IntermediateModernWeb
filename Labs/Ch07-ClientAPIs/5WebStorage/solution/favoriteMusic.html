@@ -3,12 +3,14 @@
 <head>
     <title>Using Local Storage</title>
     <script>	
-        var bandTextBox;
-        var genreSelect;
+        let bandTextBox;
+        let genreSelect;
+        let output;
 
         window.onload = function() {
             bandTextBox = document.getElementById('bandTextBox');
             genreSelect = document.getElementById('genreSelect');
+            output = document.getElementById('output');
             loadData();
         };
 
@@ -21,7 +23,7 @@
                 try {
                     localStorage.setItem('band', bandTextBox.value);
                     localStorage.setItem('genre', genreSelect.value);                           
-                    alert('data saved');
+                    output.innerHTML = "Data saved successfully"
                 }
                 catch (e) {
                     //can assume storage error
@@ -40,7 +42,7 @@
                 var genre = localStorage.getItem('genre');
                 bandTextBox.value = band;
                 genreSelect.value = genre;
-                alert('data loaded');
+                output.innerHTML ="";
             }
         }
 
@@ -49,7 +51,7 @@
 			if (hasLocalStorage()) {
 				localStorage.clear();
                 loadData();
-                alert('data cleared');
+                output.innerHTML ="";
 			}
         }
 
@@ -72,9 +74,9 @@
  
     </select>
     <br />
-    <button id="SaveButton" onClick="saveData()">Save Info</button>&nbsp;&nbsp;
-    <button id="ClearButton" onClick="clearSavedData()">Clear Info</button>
+    <button id="save-button" onclick="saveData()">Save Info</button>&nbsp;&nbsp;
+    <button id="clear-button" onclick="clearSavedData()">Clear Info</button>
     <br />
-    <span id="OutputSpan"></span>
+    <span id="output"></span>
 </body>
 </html>
