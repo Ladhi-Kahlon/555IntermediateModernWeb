@@ -22,8 +22,8 @@ if (window.XMLHttpRequest) {
 }
 
 
-//TODO #2 create a var url and assign it the string value  "bands.json"
-var url = "";
+//TODO #2 assign const url the string value  "bands.json"
+const url = "";
 
 
 xmlhttp.onreadystatechange = function() {
@@ -39,11 +39,10 @@ xmlhttp.send();
 
 
 function myFunction(jsonData) {
-	//TODO #3 create a var named out to store the html output to be generated from the object
+	//TODO #3 create a let variable named out to store the html output to be generated from the object
 
 	
-    //TODO #4 create a variable named bands - and set it to jsonData.bands
-    
+    //TODO #4 create a const variable named bands - and set it to jsonData.bands
     
     
     //TODO #5 create a for loop to loop through all bands, use i for a counter

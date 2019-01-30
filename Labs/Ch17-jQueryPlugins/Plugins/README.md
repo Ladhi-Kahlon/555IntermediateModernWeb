@@ -1,4 +1,4 @@
-# Chapter 16: Exercise: Using jQuery Plugins
+# Chapter 17: Exercise: Using jQuery Plugins
 ## Objectives
 * Explore the use of jQuery Plugins used in a CRUD application 
 

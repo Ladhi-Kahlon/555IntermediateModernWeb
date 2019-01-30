@@ -1,4 +1,4 @@
-# Chapter 6: Bonus Exercise: Building a Chart with the Canvas
+# Chapter 7: Bonus Exercise: Building a Chart with the Canvas
 ## Objective
 * Create a chart using the canvas API with data in a JSON format. 
 

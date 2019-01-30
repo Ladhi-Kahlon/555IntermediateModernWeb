@@ -1,4 +1,4 @@
-# Chapter 6: Exercise: Use AJAX to get json data from a local server
+# Chapter 7: Exercise: Use AJAX to get json data from a local server
 ## Objectives
 * Use AJAX to get and display json data
 

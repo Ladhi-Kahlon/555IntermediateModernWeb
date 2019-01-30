@@ -1,4 +1,4 @@
-# Chapter 12: Exercise: The jQuery EventModel
+# Chapter 13: Exercise: The jQuery EventModel
 ## Objectives
 * Handle jQuery click events
 

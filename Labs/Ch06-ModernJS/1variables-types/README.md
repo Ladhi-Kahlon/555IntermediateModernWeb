@@ -1,4 +1,4 @@
-# Chapter 5: JS variables
+# Chapter 6: JS variables
 
 ## Objectives
 * Practice with JS variables

@@ -1,4 +1,4 @@
-# Chapter 13: Exercise: Manipulating the DOM with jQuery
+# Chapter 14: Exercise: Manipulating the DOM with jQuery
 
 ## Objectives
 * In this lab, you will practice manipulating the DOM with jQuery.  

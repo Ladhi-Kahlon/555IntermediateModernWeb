@@ -1,5 +1,8 @@
-You will be working with feedback.html
+# Chapter 8: Practice with forms
 
-Open this file in a browser and notice it submits without validation
+## Objectives
+* You will be working with feedback.html
 
-Refer to the slide from class materials to update this form
+1. Open this file in a browser and notice it submits without validation
+
+1. Refer to the slide from class materials to update this form

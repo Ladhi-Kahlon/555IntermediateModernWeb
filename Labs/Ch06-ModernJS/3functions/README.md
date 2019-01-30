@@ -1,4 +1,4 @@
-# Chapter 5: Lab 3 Create and call functions
+# Chapter 6: Lab 3 Create and call functions
 
 ## Steps
 

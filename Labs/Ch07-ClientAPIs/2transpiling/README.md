@@ -1,4 +1,4 @@
-# Chapter 6: Exercise: Transpiling
+# Chapter 7: Exercise: Transpiling
 
 ## Objectives
 * In this lab, you will write code using ES6 notation

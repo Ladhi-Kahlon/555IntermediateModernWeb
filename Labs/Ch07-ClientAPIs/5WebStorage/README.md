@@ -1,4 +1,4 @@
-# Chapter 6: Exercise: Use Web Storage
+# Chapter 7: Exercise: Use Web Storage
 ## Objectives
 * Store data locally using local storage
 * Retrieve local data stored in local storage

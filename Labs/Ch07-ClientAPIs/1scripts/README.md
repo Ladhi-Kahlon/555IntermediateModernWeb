@@ -1,4 +1,4 @@
-# Chapter 6: JS in browser practice
+# Chapter 7: JS in browser practice
 
 ## Objectives
 * Practice with JS

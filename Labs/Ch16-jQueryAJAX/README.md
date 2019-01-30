@@ -1,4 +1,4 @@
-# Chapter 15: Using jQuery Ajax
+# Chapter 16: Using jQuery Ajax
 
 ## Objectives
 * Explore the use of AJAX calls using jQuery for a CRUD application 

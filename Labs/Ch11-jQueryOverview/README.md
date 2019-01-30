@@ -1,9 +1,10 @@
-# Chapter 10: Exercise: Creating an HTML Page and Using jQuery Selectors
+# Chapter 11: Exercise: Creating an HTML Page and Using jQuery Selectors
 ## Objectives
 * Create a new HTML page
 * Reference a jQuery script
 * Create jQuery selectors
 * Add some simple styling
+
 ### Estimated Completion Time 
 15 minutes
 

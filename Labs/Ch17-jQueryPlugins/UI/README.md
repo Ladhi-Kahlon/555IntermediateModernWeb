@@ -1,4 +1,4 @@
-# Chapter 16: Exercise: Using jQuery UI
+# Chapter 17: Exercise: Using jQuery UI
 ## Objectives
 * Explore the use of jQuery UI in a CRUD application 
 

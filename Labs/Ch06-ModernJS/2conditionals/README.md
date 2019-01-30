@@ -1,4 +1,4 @@
-# Chapter 5: Conditionals 
+# Chapter 6: Conditionals 
 ## Steps
 
 1. In `WIP/js` create a file called `conditionals.js` and do your work in this file. 

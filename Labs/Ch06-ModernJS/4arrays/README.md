@@ -1,4 +1,4 @@
-# Chapter 5: Arrays practice
+# Chapter 6: Arrays practice
 
 ## Steps
  

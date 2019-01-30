@@ -1,4 +1,4 @@
-# Chapter 11: Exercise: JQuery CSS Manipulation & Selectors
+# Chapter 12: Exercise: JQuery CSS Manipulation & Selectors
 ## Objectives
 * In this lab, you will apply multiple CSS manipulations
 and use various selection techniques

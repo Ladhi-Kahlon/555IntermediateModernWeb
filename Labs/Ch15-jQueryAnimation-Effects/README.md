@@ -1,4 +1,4 @@
-# Chapter 14: Exercise: Animations and Effects
+# Chapter 15: Exercise: Animations and Effects
 
 ## Objectives
 * Hide li instead of removing from DOM

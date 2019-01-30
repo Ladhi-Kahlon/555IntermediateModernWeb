@@ -1,4 +1,4 @@
-# Chapter 6: Canvas Shapes
+# Chapter 7: Canvas Shapes
 
 ## Objectives
 * In this lab, you will use canvas to draw some shapes

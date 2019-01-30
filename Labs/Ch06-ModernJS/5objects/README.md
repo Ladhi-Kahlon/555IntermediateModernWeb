@@ -1,4 +1,4 @@
-# Chapter 5: Object practice
+# Chapter 6: Object practice
 
 ## Steps
  
