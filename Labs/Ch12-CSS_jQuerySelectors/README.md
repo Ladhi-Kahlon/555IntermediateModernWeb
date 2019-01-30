@@ -14,7 +14,7 @@ and use various selection techniques
 
 ## Steps:
 
-1. Continue working with your `WIP\jQuery\jq.html` file. If you were not able to finish the last exercise, you can copy the solution `\Labs\ch10-jQuerySelectors\solution\selectors.html` ovr your jq.html file. 
+1. Continue working with your `WIP\jQuery\jq.html` file. If you were not able to finish the last exercise, you can copy the solution from its solution folder. 
 
 1. Apply multiple CSS styles to the `<ul>` elements to make the width narrower, and add a border.
 

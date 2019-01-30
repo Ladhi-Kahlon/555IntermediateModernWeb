@@ -5,7 +5,7 @@
 
 ## Steps:
 
-1. If you needed to step away or otherwise did not finish the bonus from the last exercise, please rename any in progress work by renaming the `index.html` file to end with -WIP such as `index-WIP.html` then copy the solution file from `\Labs\ch01-MWA_Node\solution\basics.html` into your `/WIP/` directory and rename it as `index.html`.
+1. If you needed to step away or otherwise did not finish the bonus from the last exercise, you can copy this directory's `basics.html` t your WIP directory as `index.html`. 
 
 1. If not already open, open your `index.html` in the Chrome Browser. Recall Alt-B from within the file being opened in VSCode, or right-clicking in the VSCode Explorer menu to open in default browser.
 
