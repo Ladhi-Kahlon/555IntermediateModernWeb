@@ -16,10 +16,10 @@
     node server.js 
     ```
 1. Open the URL: http://localhost:9001
-You need to complete the following steps in order to get the data to display correctky on the screen.
+You need to complete the following steps in order to get the data to display correctly on the screen.
 
 1. Review the file `bands.json`
 
-1. Open `index.html` and follow the 6 steps in the TODO comments to read the data and display it
+1. Open `index.html`. it contains 6 steps labeled as TODO items in comments. Follow these steps and modify the code to read the data and display it.
 
 1. Refresh the browser to view the output, you should see the bands on the screen.
