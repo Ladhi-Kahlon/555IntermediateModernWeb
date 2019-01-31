@@ -10,7 +10,8 @@
           "last 4 Edge versions"
         ]
       },
-      "useBuiltIns": true
+      "useBuiltIns": true,
+      "plugins": ["transform-decorators-legacy", "transform-class-properties"]
     }]
   ] 
 }
