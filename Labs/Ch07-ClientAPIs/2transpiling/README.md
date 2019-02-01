@@ -22,7 +22,7 @@
     
     The `--yes`, or `-y` accepts all the defaults from the wizard.
 
-1. Create a `src` directory for scripts, and to this directory, copy the `hobbies.js` file from the same directory as this README.md. It is the solution from a previous exercise you worked on. 
+1. Create a `src` directory for scripts, and to this directory, copy the `hobbies.js` file from the same directory as this README.md.  
 
 1. Create an `index.html` file in the directory of `\WIP\ES6`. You can use the html:5 template.
 
@@ -53,7 +53,7 @@
 
 1. Open the `package.json` and look at the new entries in the dev dependencies section. Close the file.
 
-1. READ: You may notice a `package-lock.json` file being created. This is a new approach to be able to go back to previous versions of your package.json. You can ignore this for now, but it could be checked in to your repo in the real-world. (https://docs.npmjs.com/files/package-lock.json)
+1. READ: You may notice a `package-lock.json` file being created. This file tracks the different dependencies and versions of packages in your node_modules directory. (https://docs.npmjs.com/files/package-lock.json)
 
 1. Add a `babel-preset-env` to the dev dependencies. Babel uses this to know how to transpile to a specific version.
     ```
@@ -108,11 +108,21 @@
 1. Start the build process using the command: `npm run build`. Notice that your terminal window does not return to the prompt because it is listening for changes to your `src` directory. Keep this running as you are about to add more code.
  
   
-1. Look in the `/dist` directory at the transpiled file. It should now be using ES5 type concatenation instead of backticks and not be using the arrow function.
+1. Look in the `/dist` directory at the transpiled file. Examine the contents: you should now see ES5 type concatenation instead of backticks and anonymous function use instead of an arrow function.
 
 1. Update the `index.html` to use this new `/dist/myHobbies.js` version of the hobbies JS file.
 
-1. Reload the IE browser, you should now see output in the dev tools console for both Chrome and IE.
+1. Reload the IE browser. Is it working?
+
+    Because of the use of Array.prototype's foreach, it is necessary to add in code to use a shim for IE11. Babel did not take care of this. (as of Jan 2019)
+
+    Insert this in your HTML before the inclusion of the hobbies script.
+
+    ```html
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.7/es5-shim.min.js"></script>
+    ```
+
+    You should now see output in the dev tools console for both Chrome and IE.
 
 1. Mark your work as complete and then attempt the bonus
 
