@@ -3,7 +3,7 @@
 * Use AJAX to get and display json data
 
 ### Estimated Completion Time 
-30 minutes
+15 minutes
 
 ## Steps:
 1. Copy this `6ajax` directory to `WIP`.

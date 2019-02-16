@@ -29,8 +29,15 @@ function returnHobbiesHTML() {
 }
 
 //BONUS
-var hobbiesInfoDiv = document.getElementById("hobbiesInfo");
+var hobbiesInfoDiv = document.getElementById("hobbiesInfoTable");
 hobbiesInfoDiv.innerHTML = getHobbiesAsTableHTML();
+
+
+//if you want to get fancy - can create elements in memory and 
+//dynamically change the DOM
+// var myElemDiv = document.createElement('div');
+// myElemDiv.innerHTML = getHobbiesAsTableHTML2();
+// hobbiesInfoDiv.insertAdjacentElement('afterend', myElemDiv);
 // var myElemDiv = document.createElement('div');
 // myElemDiv.innerHTML = getHobbiesAsTableHTML();
 // hobbiesInfoDiv.insertAdjacentElement('afterend', myElemDiv);
