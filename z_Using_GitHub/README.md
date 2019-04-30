@@ -35,41 +35,39 @@ Git supercharged`
     git config --global user.name "Your Name"
     ```
 
-1. Create a directory on C:\ called `MyWebCourse`
-
-1. Open a command prompt to the c:\ directory. Use mkdir to create a new directory called MyWebCourse:
+2. Create a directory on C:\ called `MyWebCourse` by using  mkdir to create a new directory called MyWebCourse:
 
     ```
     mkdir MyWebCourse
     ```
 
-1. Navigate to https://GitHub.com/ and sign into an existing account of yours or sign up for a new account.
+3. Navigate to https://GitHub.com/ and sign into an existing account of yours or sign up for a new account.
 
-1. After logging into GitHub, create a new GitHub repository called `MyWebCourse` by either selecting the `Start a Project` button on the center of the page or the `New` green button on the left hand `Repositories` panel
+4. After logging into GitHub, create a new GitHub repository called `MyWebCourse` by either selecting the `Start a Project` button on the center of the page or the `New` green button on the left hand `Repositories` panel
 
     Leave the checkbox for `Initialize this repository with a README` unchecked and select `Create Repository`
 
-1. Copy the list of commands from the section `…or create a new repository on the command line` and paste them into the windows Command Prompt we opened in Step 2 that is currently within the `MyWebCourse` directory. Press enter to execute the last line and your repository should have been created.
+5. Copy the list of commands from the section `…or create a new repository on the command line` and paste them into the windows Command Prompt we opened in Step 2 that is currently within the `MyWebCourse` directory. Press enter to execute the last line and your repository should have been created.
 
-1. From the Command Prompt within `MyWebCourse` directory execute the command `code .` to open the project in VS Code.
+6. From the Command Prompt within `MyWebCourse` directory execute the command `code .` to open the project in VS Code.
 
-1. Find the README.md file within the Explorer on the left side of VS Code and open it.
+7. Find the README.md file within the Explorer on the left side of VS Code and open it.
 
-1. Edit the README.md file to include your name
+8. Edit the README.md file to include your name
 
-1. Save the file, and notice the `Source Control` button on the left hand toolbar. It should now have a blue circle on it containing the number 1. This number indicates the number of files that have been changed locally.
+9. Save the file, and notice the `Source Control` button on the left hand toolbar. It should now have a blue circle on it containing the number 1. This number indicates the number of files that have been changed locally.
 
-1. Within the panel `Source Control` that opened, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added above to `Staged Changes`
+10. Within the panel `Source Control` that opened, mouse over the README.md file; press the `+` button that appeared to stage the change. You can also stage the change by right clicking on the README.md and clicking `Stage Changes`. You should now see that `README.md` was added above to `Staged Changes`
 
-1. Above `Staged Changes` you should see a text input field with the text `Message (press Ctrl+Enter to commit)`. Within this field enter a good commit message which describes the changes we staged in the previous step.
+11. Above `Staged Changes` you should see a text input field with the text `Message (press Ctrl+Enter to commit)`. Within this field enter a good commit message which describes the changes we staged in the previous step.
 
-1. Click the check mark above the text message field to commit the changes made to README.md
+12. Click the check mark above the text message field to commit the changes made to README.md
 
-1. Now that we have committed a change it is ready to be pushed to GitHub. Before pushing we always want to make sure we've pulled the latest changes from the remote repository, but since we're making the first changes we can go ahead and push. To push the commit to GitHub, click on the `...` button found on top of VS Code's git panel which was on the same level as the check mark. You can also click on the `Synchronize Changes` button found in blue on the bottom left of VS Code. This button will pull changes and then push commits made to the current branch we are on.
+13. Now that we have committed a change it is ready to be pushed to GitHub. Before pushing we always want to make sure we've pulled the latest changes from the remote repository, but since we're making the first changes we can go ahead and push. To push the commit to GitHub, click on the `...` button found on top of VS Code's git panel which was on the same level as the check mark. You can also click on the `Synchronize Changes` button found in blue on the bottom left of VS Code. This button will pull changes and then push commits made to the current branch we are on.
 
-1. VS Code will prompt you to enter your GitHub credentials to push the changes, please do so now. If you navigate to GitHub, you should see the README.md is updated with your changes.
+14. VS Code will prompt you to enter your GitHub credentials to push the changes, please do so now. If you navigate to GitHub, you should see the README.md is updated with your changes.
 
-1. VS Code will continue to ask for your GitHub username and password every time it talks to GitHub. You can use a credential helper shown in the Windows example below:
+15. VS Code will continue to ask for your GitHub username and password every time it talks to GitHub. You can use a credential helper shown in the Windows example below:
 
 
     On Windows, running the following in the command line will store your credentials:
@@ -80,7 +78,7 @@ Git supercharged`
 
     You can also do this by install a native Git shell, such as Git for Windows https://gitforwindows.org/ or cloning the repository using SSH, but we would need an administrator of the repository to explicitly allow your SSH key.
 
-1. Tell Git to ignore files in a directory. 
+16. Tell Git to ignore files in a directory. 
     
     * Git includes a settings file called `.gitignore`
     * Any files or directories included in this file will not be included when you push changes up to the repository.
@@ -91,8 +89,8 @@ Git supercharged`
     * You will be adding files as you perform labs in the class.  You do not want these changes to be published to the repository.  In order to ensure this, you will create a directory to hold these files.  The GIT directory is in this .gitignore file.
 
 
-1. On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
+17. On VS Code's left hand toolbar, click on the `GitLens` extension you installed earlier. This extension contains additional features.
 
-1. Familiarize yourself with `GitLens'` panel. Notice how you can use it to access different repositories and their branches, remote, your stashes, etc. Also notice how you can navigate through it to see history of a file, a line, or compare files between different branches or between local and remote.
+18. Familiarize yourself with `GitLens'` panel. Notice how you can use it to access different repositories and their branches, remote, your stashes, etc. Also notice how you can navigate through it to see history of a file, a line, or compare files between different branches or between local and remote.
 
-1. Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
+19. Please mark your work as complete. With your name tent card if in a classroom or by using method for online training. (spreadsheet, status symbol, etc.)
